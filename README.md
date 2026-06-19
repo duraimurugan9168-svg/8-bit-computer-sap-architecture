@@ -93,6 +93,7 @@ The 8-bit SAP Computer supports the following instructions:
 * **Opcode (4 bits):** Specifies the operation to be performed.
 * **Address (4 bits):** Memory location used by address-based instructions.
 * Total instruction width: **8 bits**.
+---
 
 ## SAP-1 Computer Operational Principle
 
