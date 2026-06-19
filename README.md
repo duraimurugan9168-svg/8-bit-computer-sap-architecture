@@ -15,14 +15,14 @@ The project also provides practical experience with FPGA implementation and proc
 
 Understanding how a computer executes instructions at the hardware level can be challenging due to the complexity of modern processors. This project addresses this problem by designing and implementing an **8-bit SAP (Simple-As-Possible) Computer** using Verilog HDL. The system demonstrates fundamental computer architecture concepts such as instruction fetching, decoding, execution, memory access, arithmetic operations, and control signal generation through a modular and educational CPU design.
 
-### Inputs
+**INPUTS**
 
 * Clock (`clk`)
 * Reset (`reset`)
 * Program instructions stored in memory
 * Data stored in memory
 
-### Conditions
+**CONDITIONS**
 
 * System Reset
 * Fetch Cycle
@@ -30,7 +30,7 @@ Understanding how a computer executes instructions at the hardware level can be 
 * Execute Cycle
 * Halt Instruction (`HLT`)
 
-### Logical Flow
+**LOGICAL FLOW**
 
 ```text
 PROGRAM MEMORY
