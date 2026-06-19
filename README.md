@@ -7,6 +7,42 @@ The computer is built by integrating essential CPU components such as the Progra
 
 This project was developed as a learning platform for understanding digital system design, RTL development, FPGA implementation, and basic processor architecture. It provides hands-on experience in designing individual hardware modules and integrating them into a complete working computer system.
 
+## Problem Statement
+
+Understanding how a computer executes instructions at the hardware level can be challenging due to the complexity of modern processors. This project addresses this problem by designing and implementing an **8-bit SAP (Simple-As-Possible) Computer** using Verilog HDL. The system demonstrates fundamental computer architecture concepts such as instruction fetching, decoding, execution, memory access, arithmetic operations, and control signal generation through a modular and educational CPU design.
+
+### Inputs
+
+* Clock (`clk`)
+* Reset (`reset`)
+* Program instructions stored in memory
+* Data stored in memory
+
+### Conditions
+
+* System Reset
+* Fetch Cycle
+* Decode Cycle
+* Execute Cycle
+* Halt Instruction (`HLT`)
+
+### Logical Flow
+
+```text
+PROGRAM MEMORY
+       ↓
+     FETCH
+       ↓
+     DECODE
+       ↓
+    EXECUTE
+       ↓
+REGISTER / ALU OPERATION
+       ↓
+      OUTPUT
+```
+
+The processor executes instructions sequentially using a Finite State Machine (FSM)-based Control Unit and an 8-bit shared bus architecture. Correct operation is maintained through synchronized register transfers, controlled memory access, and timing-state (T-cycle) based instruction execution.
 
 ## Tools & Hardware
 
