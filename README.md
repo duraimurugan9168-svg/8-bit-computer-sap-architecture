@@ -1,12 +1,12 @@
 # 8-bit-computer-sap-architecture
 
-TOOLS AND HARDWARE:
-❖ FPGA: ZedBoard Zynq-7000
+## Tools & Hardware
 
-❖ HDL Tool: AMD Vivado 2023 Edition
+| Category | Specification |
+|-----------|--------------|
+| FPGA Board | Spartan-7 XC7S50 |
+| Design Tool | AMD Vivado 2025 Edition |
+| Hardware Description Language | Verilog HDL |
+| Simulator | Vivado Simulator |
+| Verification Method | Self-Checking Testbench |
 
-❖ Language: Verilog HDL
-
-❖ Simulation: Vivado Simulator
-
-❖ Verification: Self-checking Testbench
