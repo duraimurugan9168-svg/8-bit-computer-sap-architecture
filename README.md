@@ -167,9 +167,7 @@ The SAP-1 Control Unit is implemented using a Finite State Machine (FSM) that ge
 The FSM continuously cycles through the timing states until a **HLT** instruction is encountered.
 
 
-### Consclusion
-
-## Conclusion
+### Conclusion
 
 The 8-bit SAP-1 computer was successfully designed and implemented using Verilog HDL. The project demonstrated the fundamental concepts of computer architecture, including instruction fetching, decoding, execution, and data transfer. By integrating modules such as the PC, registers, ALU, RAM, and FSM-based control unit, a functional processor was realized. This work provided practical experience in RTL design, digital system integration, and FPGA-based processor implementation.
 
