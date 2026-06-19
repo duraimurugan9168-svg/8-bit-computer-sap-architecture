@@ -1,0 +1,50 @@
+`timescale 1ns / 1ps
+
+module display_scanner(
+    input clk,
+    input [6:0] seg_hundreds,
+    input [6:0] seg_tens,
+    input [6:0] seg_ones,
+    output reg [7:0] an,
+    output reg [7:0] seg
+);
+
+reg [15:0] refresh_counter;
+reg [1:0] digit_select;
+initial begin
+    refresh_counter = 16'd0;
+    digit_select    = 2'b00;
+end
+
+always @(posedge clk)
+begin
+    refresh_counter <= refresh_counter + 1;
+    if(refresh_counter[7:0] == 8'hFF)
+        digit_select <= digit_select + 1;
+end
+always @(*)
+begin
+    case(digit_select)
+        2'b00:
+        begin
+            an  = 8'b11111110;
+            seg = {1'b1, seg_ones};
+        end
+        2'b01:
+        begin
+            an  = 8'b11111101;
+            seg = {1'b1, seg_tens};
+        end
+        2'b10:
+        begin
+            an  = 8'b11111011;
+            seg = {1'b1, seg_hundreds};
+        end
+        default:
+        begin
+            an  = 8'b11111111;
+            seg = 8'b11111111;
+        end
+    endcase
+end
+endmodule
