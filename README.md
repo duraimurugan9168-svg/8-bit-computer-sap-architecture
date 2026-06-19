@@ -67,6 +67,8 @@ The processor executes instructions sequentially using a Finite State Machine (F
 
 The 8-bit SAP-1 computer consists of the PC, MAR, IR, registers, ALU, RAM, and an FSM-based Control Unit. The control unit manages data flow and instruction execution, while the ALU performs arithmetic operations. The system follows the Fetch–Decode–Execute cycle to execute instructions stored in memory.
 
+---
+
 ## Instruction Set Architecture (ISA)
 
 The 8-bit SAP Computer supports the following instructions:
@@ -85,7 +87,7 @@ The 8-bit SAP Computer supports the following instructions:
 | `1010` | **OUT**       | Transfer Accumulator (A) data to Output Register |
 | `1011` | **HLT**       | Halt program execution                           |
 
-### Instruction Format
+**Instruction format**
 
 ```text
 +--------+------------+
