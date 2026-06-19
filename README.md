@@ -60,6 +60,8 @@ The processor executes instructions sequentially using a Finite State Machine (F
 | Simulator | Vivado Simulator |
 | Verification Method | Self-Checking Testbench |
 
+---
+
 ## Instruction Set Architecture (ISA)
 
 The 8-bit SAP Computer supports the following instructions:
