@@ -1,8 +1,13 @@
 # 8-bit-computer-sap-architecture
 ## Project Overview
 
-This project implements an 8-bit SAP-1 (Simple-As-Possible) Computer using Verilog HDL. It integrates core components such as the Program Counter, Registers, ALU, RAM, and an FSM-based Control Unit to execute instructions through the Fetch–Decode–Execute cycle. The project serves as a practical platform for learning computer architecture, RTL design, digital systems, and FPGA implementation.
-
+This project implements an 8-bit SAP-1 (Simple-As-Possible) Computer using Verilog HDL.
+It demonstrates the fundamentals of computer architecture and instruction execution.
+The design integrates modules such as the PC, MAR, IR, registers, ALU, RAM, and output register.
+An FSM-based control unit generates the required control signals.
+The system follows the Fetch–Decode–Execute cycle to process instructions.
+It serves as a platform for learning digital system design and RTL development.
+The project also provides practical experience with FPGA implementation and processor architecture.
 ---
 
 ## Problem Statement
