@@ -22,18 +22,18 @@ This project was developed as a learning platform for understanding digital syst
 
 The SAP-1 Computer operates using the **Fetch → Decode → Execute** cycle controlled by a Finite State Machine (FSM).
 
-### ➤ FETCH
+#### Fetch
 
 * The Program Counter (PC) provides the address of the next instruction.
 * The instruction is fetched from memory and loaded into the Instruction Register (IR).
 * The PC increments to the next address.
 
-### ➤ DECODE
+#### Decode
 
 * The Control Unit decodes the instruction stored in the IR.
 * Required control signals are generated for execution.
 
-### ➤ EXECUTE
+#### Execute
 
 The operation depends on the instruction:
 
@@ -43,11 +43,11 @@ The operation depends on the instruction:
 * **OUT** – Transfer the Accumulator value to the Output Register.
 * **HLT** – Stop program execution.
 
-### ➤ DATA TRANSFER
+#### Data Transfer
 
 * All modules communicate through a common 8-bit bus.
 * Data moves between registers, memory, and the ALU based on control signals.
 
-### ➤ PROGRAM FLOW
+#### Program Flow
 
-The computer continuously fetches, decodes, and executes instructions until a **HLT** instruction is encountered.
+* The computer continuously fetches, decodes, and executes instructions until a **HLT** instruction is encountered.
