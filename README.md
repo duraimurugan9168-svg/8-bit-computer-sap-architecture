@@ -74,7 +74,8 @@ The processor executes instructions sequentially using a Finite State Machine (F
 ---
 ## 8 bit computer block diagram 
 
-<img width="927" height="700" alt="Screenshot 2026-06-19 220852" src="https://github.com/user-attachments/assets/5d4bc5ad-5ea4-47cd-9317-7eff54966de5" />
+<img width="948" height="757" alt="image" src="https://github.com/user-attachments/assets/e230bb74-fbbb-4bda-be69-abc87373fbf1" />
+
 
 The 8-bit SAP-1 computer consists of the PC, MAR, IR, registers, ALU, RAM, and an FSM-based Control Unit. The control unit manages data flow and instruction execution, while the ALU performs arithmetic operations. The system follows the Fetch–Decode–Execute cycle to execute instructions stored in memory.
 
