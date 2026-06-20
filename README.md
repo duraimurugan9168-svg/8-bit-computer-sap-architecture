@@ -168,6 +168,33 @@ The FSM continuously cycles through the timing states until a **HLT** instructio
 
 ---
 
+### Contributors:
+
+## CONTRIBUTORS
+
+**Vasan T**, Bannari Amman Institute of Technology  
+🔗 [LinkedIn](https://linkedin.com/in/username)
+
+**Durai Murugan M**, Bannari Amman Institute of Technology  
+🔗 [LinkedIn](https://linkedin.com/in/username)
+
+**Arut selvan B**, Bannari Amman Institute of Technology
+
+
+---
+
+We are grateful to our VLSI faculty for his constant support and valuable guidance throughout this project.
+
+### **Dr. Elango Sekar**
+🔗 [LinkedIn](https://linkedin.com/in/username) | 🔗 [GitHub](https://github.com/username)
+
+Associate Professor, Department of ECE,  
+Bannari Amman Institute of Technology.
+
+We also extend our sincere thanks to the **BIT – Centre for SoC and FPGA Design** for providing an excellent learning environment and technical support throughout this work.
+
+🔗 [LinkedIn](https://linkedin.com/company/bit-centre-for-soc-and-fpga-design)
+
 ### Conclusion
 
 The 8-bit SAP-1 computer was successfully designed and implemented using Verilog HDL. The project demonstrated the fundamental concepts of computer architecture, including instruction fetching, decoding, execution, and data transfer. By integrating modules such as the PC, registers, ALU, RAM, and FSM-based control unit, a functional processor was realized. This work provided practical experience in RTL design, digital system integration, and FPGA-based processor implementation.
