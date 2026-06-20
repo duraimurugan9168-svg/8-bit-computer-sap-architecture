@@ -17,6 +17,7 @@ The project also provides practical experience with FPGA implementation and proc
 -  [Tools & Hardware](#tools--hardware)
 -  [8-Bit Computer Block Diagram](#8-bit-computer-block-diagram)
 -  [Instruction Set Architecture (ISA)](#instruction-set-architecture-isa)
+-  [SAP-1 Computer Operational Principle](#sap-1-computer-operational-principle)
 
 ## Problem Statement
 
