@@ -13,6 +13,7 @@ The project also provides practical experience with FPGA implementation and proc
 
 ## Table of contents 
 - [Project Overview](#project-overview)
+- [Problem Statement](#problem-statement)
 
 ## Problem Statement
 
