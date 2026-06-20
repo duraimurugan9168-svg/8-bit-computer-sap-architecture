@@ -189,6 +189,7 @@ The FSM continuously cycles through the timing states until a **HLT** instructio
 🔗 [LinkedIn](https://linkedin.com/in/username)
 
 **Arut selvan B**, Bannari Amman Institute of Technology
+🔗 [LinkedIn](https://www.linkedin.com/in/arut-selvan-baskaran-161922330/)
 
 
 ---
