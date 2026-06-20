@@ -11,6 +11,9 @@ The project also provides practical experience with FPGA implementation and proc
 
 ---
 
+## Table of contents 
+[Project Overview](#project-overview)
+
 ## Problem Statement
 
 Understanding how a computer executes instructions at the hardware level can be challenging due to the complexity of modern processors. This project addresses this problem by designing and implementing an **8-bit SAP (Simple-As-Possible) Computer** using Verilog HDL. The system demonstrates fundamental computer architecture concepts such as instruction fetching, decoding, execution, memory access, arithmetic operations, and control signal generation through a modular and educational CPU design.
